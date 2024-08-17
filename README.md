@@ -1,13 +1,13 @@
-# lazy-jcabi-jdbc
+# java-functional-jdbc-wrapper
 
-Этот модуль добавляет транзакционный интерфейс-функтор `SqlExecutable` для решения следующих задач:
-* Корректная обработка вложенных транзакций
-* Ленивость запросов и их инициализации
-* Потокобезопасность
+This module introduces transactional functional interface `SqlExecutable` for solving the following tasks:
+- Correct inner transactions handling
+- Lazy declaration of lazy queries
+- Thread safety
 
-# Пример использования
+# Examples
 
-## 1. Инициализация Query
+## 1. Query initialization
 ```java
 import com.jcabi.jdbc.SingleOutcome;
 import ru.hirus.jcabi.Nothing;
@@ -46,7 +46,7 @@ public class Repository {
 }
 ```
 
-## 2. Работа с Query
+## 2. Query
 ```java
 import com.jcabi.jdbc.JdbcSession;
 import com.jcabi.jdbc.UrlSource;
@@ -82,7 +82,7 @@ public final class QueryMain {
 }
 ```
 
-## 3. Работа с Transaction
+## 3. Transaction
 ```java
 import com.jcabi.jdbc.JdbcSession;
 import com.jcabi.jdbc.UrlSource;
@@ -123,7 +123,7 @@ public final class TransactionMain {
 }
 ```
 
-## 4. Утилиты
+## 4. Util
 ### 4.1. Sequence
 ```java
 import com.jcabi.jdbc.JdbcSession;

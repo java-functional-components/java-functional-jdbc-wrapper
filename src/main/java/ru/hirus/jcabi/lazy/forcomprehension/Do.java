@@ -1,8 +1,8 @@
 package ru.hirus.jcabi.lazy.forcomprehension;
 
+import io.vavr.Function3;
+import io.vavr.Function4;
 import ru.hirus.jcabi.lazy.Query;
-import ru.hirus.libextension.Function3;
-import ru.hirus.libextension.Function4;
 
 import java.util.function.BiFunction;
 import java.util.function.Function;

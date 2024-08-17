@@ -1,10 +1,10 @@
 package ru.hirus.jcabi.lazy.forcomprehension;
 
 import com.jcabi.jdbc.JdbcSession;
+import io.vavr.Function3;
 import org.javatuples.Quartet;
 import ru.hirus.jcabi.lazy.Query;
 import ru.hirus.jcabi.lazy.SqlRunnable;
-import ru.hirus.libextension.Function3;
 
 import java.util.function.BiFunction;
 import java.util.function.Function;
